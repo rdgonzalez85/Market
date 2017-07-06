@@ -34,7 +34,7 @@ struct Item: TableViewPresentableItemProtocol {
     }
     
     func priceString() -> String {
-        return String(format: "%.2f", price)
+        return String(format: "$%.2f", price)
     }
 }
 
